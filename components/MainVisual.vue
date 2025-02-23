@@ -10,7 +10,7 @@
     </div>
     <div class="absolute top-0 left-0 w-full h-full">
       <img src="~/assets/images/main-visual-sp.png" alt="Background" class="w-full md:hidden" />
-      <img src="~/assets/images/main-visual.png" alt="Background" class="hidden md:block" />
+      <img src="~/assets/images/BD94533B-2D89-4152-A406-73852076B0A5.webp" alt="Background" class="hidden md:block" />
     </div>
   </section>
 </template>
