@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full h-[85vh] overflow-hidden flex justify-start bg-gray-100 py-16 px-0">
+  <section class="relative w-full h-[85vh] overflow-hidden flex justify-start bg-gray-100 px-0 pb-30">
     <div class="mv-area relative z-10 text-left max-w-1280 w-full mx-auto flex flex-col">
       <div class="max-md:text-3xl text-5xl font-bold mb-4 leading-tight text-white">
         BARABARU</div>
@@ -8,8 +8,8 @@
       </p>
     </div>
     <div class="absolute top-0 left-0 w-full h-full">
-      <img src="~/assets/images/IMG_3473.jpg" alt="Background" class="w-full h-full object-cover md:hidden" />
-      <img src="~/assets/images/IMG_3473.jpg" alt="Background" class="hidden md:block w-full h-full object-cover" />
+      <img src="~/assets/images/IMG_3473.JPG" alt="Background" class="w-full h-full object-cover md:hidden" />
+      <img src="~/assets/images/IMG_3473.JPG" alt="Background" class="hidden md:block w-full h-full object-cover" />
     </div>
   </section>
 </template>

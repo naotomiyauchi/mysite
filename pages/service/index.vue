@@ -42,7 +42,7 @@ type Service = {
 };
 
 const services: Service[] = [
-  { title: 'サーバー代0円', description: '' },
+  { title: '0円', description: '' },
   { title: '超高速表示', description: '' },
   { title: '内部SEO最適化', description: '' },
   { title: 'アクセス負荷対応', description: '' },
