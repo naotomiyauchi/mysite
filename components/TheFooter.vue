@@ -159,6 +159,10 @@
       flex-direction: column;
     }
 
+    .footer-menu {
+      display: none;
+    }
+
     .footer-links {
       flex-direction: column;
       gap: 2em;

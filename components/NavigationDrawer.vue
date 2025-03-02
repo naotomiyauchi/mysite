@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ opened: isOpen }" class="p-spMenu">
+  <div :class="{ opened: isOpen }" class="p-spMenu" @click.self="closeMenu">
     <ul>
       <li><nuxt-link to="/about" @click="closeMenu">私たちについて</nuxt-link></li>
       <li><nuxt-link to="/service" @click="closeMenu">サービス</nuxt-link></li>

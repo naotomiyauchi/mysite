@@ -163,6 +163,11 @@ const limitedNewsList = computed(() => {
 </script>
 
 <style lang="scss" scoped>
+
+section {
+  background-color: #000;
+}
+
 section:nth-of-type(odd) {
   background-color: #f8f8f8;
 }
