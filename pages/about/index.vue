@@ -10,7 +10,7 @@
           <p>培ったデザインと技術で<br class="br-sp">SEOに強いWebサイトを実現します。</p>
         </div>
         <div class="content-column-right">
-          <img src="~/assets/images/about-us.jpg" alt="About us" />
+          <img src="~/static/IMG_3477.JPG" alt="About us" />
         </div>
       </div>
     </section>

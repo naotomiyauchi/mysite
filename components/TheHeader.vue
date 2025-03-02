@@ -10,8 +10,8 @@
         <ul>
           <li><nuxt-link to="/">Top</nuxt-link></li>
           <li><nuxt-link to="/about">About</nuxt-link></li>
-          <li><nuxt-link to="/service">Works</nuxt-link></li>
-          <li><nuxt-link to="/news">Blog</nuxt-link></li>
+          <li><nuxt-link to="/service">Menu</nuxt-link></li>
+          <li><nuxt-link to="/news">News</nuxt-link></li>
           <li><PrimaryButton to="/contact" label="Contact" :showIcon="false" /></li>
         </ul>
       </nav>
