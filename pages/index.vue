@@ -10,7 +10,12 @@
           <small class="ml-[0.2em]">私たちについて</small>
           <h2>About us</h2>
           <p>Instagramなどの<br class="br-sp">SNSは下記のサイトにまとめてます</p>
-          <SecondaryButton to="/about" label="もっと見る" class="justify-start mr-auto" />
+          <a href="https://lit.link/shintaro0416" target="_blank" rel="noopener noreferrer" class="button-link-primary justify-start mr-auto text-white bg-blue-600 px-4 py-2 rounded-full font-bold transition-colors duration-300 hover:bg-blue-800 h-12 inline-flex items-center mb-4">
+           <span class="btn-text">もっと詳しく</span>
+           <svg class="inline-block w-4 h-4 text-white relative bottom-[2px] left-[8px]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+           </svg>
+          </a>
         </div>
         <div class="content-column-right">
           <img src="~/assets/images/IMG_3481.jpg" alt="About us" />
@@ -33,7 +38,7 @@
               </div>
             </div>
           </div>
-          <SecondaryButton to="/service" label="もっと見る" class="mt-4 justify-end ml-auto" />
+          <SecondaryButton to="/service" label="もっと見る" class="mt-4 justify-end ml-auto text-white" />
         </div>
     </section>
 
@@ -45,15 +50,15 @@
           <h2>News</h2>
         </div>
         <div class="content-column-right">
-          <ul v-if="newsList && newsList.length" class="news-list">
-            <li v-for="news in limitedNewsList" :key="news.id" class="news-item">
+          <ul v-if="newsList && newsList.length" class="news-list text-white">
+            <li v-for="news in limitedNewsList" :key="news.id" class="news-item text-white">
               <NuxtLink :to="`/news/${news.id}`">
-                <div class="news-date">{{ formatDate(news.publishedAt) }}</div>
-                <div class="news-description">{{ news.title }}</div>
+                <div class="news-date text-white">{{ formatDate(news.publishedAt) }}</div>
+                <div class="news-description text-white">{{ news.title }}</div>
               </NuxtLink>
             </li>
           </ul>
-          <SecondaryButton to="/news" label="もっと見る" class="mt-4 justify-end ml-auto" />
+          <SecondaryButton to="/news" label="もっと見る" class="mt-4 justify-end ml-auto text-white" />
         </div>
       </div>
     </section>
@@ -68,12 +73,12 @@
           <table>
             <tbody>
               <tr>
-                <th>店舗名</th>
-                <td>BAR BARABARU<br> BAR SHU-CLIA</td>
+                <th>会社名</th>
+                <td>ダミー株式会社</td>
               </tr>
               <tr>
                 <th>所在地</th>
-                <td>熊本県熊本市中央区下通1丁目6-5 Modenaビル <br>熊本県熊本市中央区下通1丁目8-18 銀座ツインビル</td>
+                <td>〒000-0000<br> 東京都中央区銀座1丁目1番1号</td>
               </tr>
               <tr>
                 <th>設立</th>
@@ -81,7 +86,7 @@
               </tr>
               <tr>
                 <th>代表者名</th>
-                <td>重永 信太郎</td>
+                <td>山田 太郎</td>
               </tr>
               <tr>
                 <th>資本金</th>
@@ -118,7 +123,7 @@
 <script setup lang="ts">
 definePageMeta({
   layout: 'top',
-  title: 'Jamstackで構築する次世代の高速Webサイト',
+  title: 'BAR BARABARU',
   description: '高速表示とセキュアな環境を実現するJamstack構成のWebサイト制作サービス。SEO対策で集客力アップに貢献します。',
 });
 type Service = {

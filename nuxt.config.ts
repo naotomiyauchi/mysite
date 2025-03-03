@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  target: 'static',
   nitro: {
     preset: 'static',
   },
@@ -24,7 +23,16 @@ export default defineNuxtConfig({
     ]
   ],
   css: ['~/assets/scss/main.scss'],
-  
+
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' } , // ファビコンを追加
+        { rel: 'apple-touch-icon', href: '/favicon-32x32.png' } // Apple用アイコン
+      ]
+    }
+  },
+
   runtimeConfig: {
     public: {
       googleFormUrl: process.env.GOOGLE_FORM_URL,
