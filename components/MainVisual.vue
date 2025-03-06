@@ -8,8 +8,8 @@
       </p>
     </div>
     <div class="absolute top-0 left-0 w-full h-full">
-      <img src="~/assets/images/IMG_3473.JPG" alt="Background" class="w-full h-full object-cover md:hidden" />
-      <img src="~/assets/images/IMG_3473.JPG" alt="Background" class="hidden md:block w-full h-full object-cover" />
+      <img src="~/public/IMG_3473.jpg" alt="Background" class="w-full h-full object-cover md:hidden" />
+      <img src="~/public/IMG_3473.jpg" alt="Background" class="hidden md:block w-full h-full object-cover" />
     </div>
   </section>
 </template>

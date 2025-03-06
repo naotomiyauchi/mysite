@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/sitemap',
+    '@nuxtjs/sitemap', 
     ['nuxt-gtag',
       {
         id: process.env.GOOGLE_ANALYTICS_ID
@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   css: ['~/assets/scss/main.scss'],
 
   app: {
-    baseURL: '/mysite/',
+    baseURL: '/',
     head: {
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' } , // ファビコンを追加
