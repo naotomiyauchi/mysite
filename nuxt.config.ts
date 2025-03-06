@@ -25,6 +25,7 @@ export default defineNuxtConfig({
   css: ['~/assets/scss/main.scss'],
 
   app: {
+    baseURL: '/mysite/',
     head: {
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' } , // ファビコンを追加
