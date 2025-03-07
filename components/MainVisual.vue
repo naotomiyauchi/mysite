@@ -9,8 +9,8 @@
       </p>
     </div>
     <div class="absolute top-0 left-0 w-full h-full">
-      <img src="/assets/images/IMG_3473.JPG" alt="Main Visual" class="w-full h-full object-cover md:hidden" />
-      <img src="/assets/images/IMG_3473.JPG" alt="Main Visual" class="hidden md:block w-full h-full object-cover" />
+      <img src="/IMG_3473.JPG" alt="Main Visual" class="w-full h-full object-cover md:hidden" />
+      <img src="/IMG_3473.JPG" alt="Main Visual" class="hidden md:block w-full h-full object-cover" />
     </div>
   </section>
 </template>
