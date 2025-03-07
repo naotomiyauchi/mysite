@@ -2,7 +2,8 @@
   <section class="relative w-full h-[85vh] overflow-hidden flex justify-start bg-gray-100 px-0 pb-30">
     <div class="mv-area relative z-10 text-left max-w-1280 w-full mx-auto flex flex-col">
       <div class="max-md:text-3xl text-5xl font-bold mb-4 leading-tight text-white">
-        BARABARU</div>
+        BARABARU
+      </div>
       <p class="text-lg mb-8 leading-relaxed text-white">
         熊本下通で<br class="br-sp">圧倒的パフォーマンスを体験
       </p>
