@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   nitro: {
-    preset: 'static',
+    preset: 'standalone',
   },
   modules: [
     '@nuxt/eslint',
