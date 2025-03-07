@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
+  vite: {
+    assetsInclude: ['**/*.JPG']
+  },
   devtools: { enabled: true },
   nitro: {
     preset: 'static',
