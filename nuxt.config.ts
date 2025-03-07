@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   nitro: {
-    preset: 'standalone',
+    preset: 'vercel', // ← ここを 'vercel' に変更
+    output: {
+      dir: '.output'
+    }
   },
   modules: [
     '@nuxt/eslint',
